@@ -20,9 +20,11 @@ export default function Navbar() {
   return (
     <AppBar
       position="static"
+      elevation={0}
       sx={{
-        backgroundColor: "transparent",
+        backgroundColor: "transparent !important",
         boxShadow: "none",
+        backdropFilter: "none",
       }}
     >
       <Container maxWidth="xl">

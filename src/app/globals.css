@@ -5,26 +5,20 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* когда есть класс .dark - используем темные цвета */
+.dark {
+  --background: #121212;
+  --foreground: #eee;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-mono), monospace; 
+  font-family: var(--font-geist-mono), monospace;
 }
 
-html, body, #__next {
-  font-family: var(--font-geist-mono), monospace !important;
+html, body {
+  /* убираем !important, чтобы css переменные работали */
+  background-color: var(--background);
+  color: var(--foreground);
 }
