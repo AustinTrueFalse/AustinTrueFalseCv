@@ -7,7 +7,7 @@ export default function AvatarCv() {
   return (
     <Avatar
       sx={{ width: 200, height: 200 }}
-      src="/avatar.jpg"
+      src="/CurriculumVitae/avatar.jpg"
     ></Avatar>
   );
 }
