@@ -10,6 +10,20 @@ import ExperienceCard from "./ui/ExperienceCard";
 export default function Experience() {
   return (
     <Box>
+      <Box sx={{
+        p: 3,
+       
+        backgroundColor: "transparent",
+       
+        color: "#d4d4d4",
+        maxWidth: 800,
+        mx: "auto",
+        whiteSpace: "pre-wrap",
+        overflowWrap: "break-word",
+        mt: 5,
+      }}>
+        <strong>Мой опыт</strong>
+      </Box>
       <ExperienceCard
         company="Лента"
         role="Fullstack-developer"

@@ -27,7 +27,7 @@ export default function ExperienceCard({
         mx: "auto",
         whiteSpace: "pre-wrap",
         overflowWrap: "break-word",
-        mt: 5,
+        mt: 3,
       }}
     >
       <Typography component="div" sx={{ fontSize: "clamp(14px, 2vw, 18px)" }}>

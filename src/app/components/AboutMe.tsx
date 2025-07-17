@@ -94,9 +94,9 @@ export default function AboutMe() {
           ))}
           ],
           {"\n  "}
-          <span style={{ color: colors.key }}>favoriteQuote</span>:{" "}
+          {/* <span style={{ color: colors.key }}>favoriteQuote</span>:{" "}
           <span style={{ color: colors.string }}>`{data.favoriteQuote}`</span>,
-          {"\n  "}
+          {"\n  "} */}
           <span style={{ color: colors.key }}>askMeAbout</span>: [
           {data.askMeAbout.map((item, i) => (
             <span key={item}>
