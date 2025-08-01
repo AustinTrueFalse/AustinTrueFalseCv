@@ -26,14 +26,14 @@ export default function Experience() {
       </Box>
       <ExperienceCard
         company="Лента"
-        role="Fullstack-developer"
+        role="Frontend-developer"
         projects={[
           {
             title: "Приложение для клиентского сервиса и поддержки V2",
-            description: `Разрабатываю новую версию CRM-системы с учетом интеграции функционала нескольких корпоративных приложений.
+            description: `Разрабатываю новую версию CRM-системы с учетом интеграции функционала нескольких корпоративных систем.
 Внедрил TypeScript и Vue 3, обеспечив высокую масштабируемость и поддержку строгой типизации компонентов.
 Организовал взаимодействие frontend с микросервисной архитектурой через REST API.`,
-            stack: "TypeScript, Vue 3, Nuxt, Vuetify, MS SQL, C#",
+            stack: "TypeScript, Vue 3, Nuxt 3, Vuetify, MS SQL, C#",
           },
           {
             title: "Приложение для клиентского сервиса и поддержки V1",
