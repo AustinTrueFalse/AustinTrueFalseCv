@@ -9,7 +9,7 @@ const data = {
   pronouns: ["Он", "Его"],
   code: ["JavaScript", "TypeScript", "C# (base level)", "SQL"],
   technologies: {
-    frontend: ["Vue2/3", "Pinia", "VueX", "Vuetify", "React (start level)"],
+    frontend: ["Vue2/3", "Nuxt", "Pinia", "Vuex", "Vuetify"],
     databases: ["mssql"],
     misc: ["firebase", "git"],
   },
